@@ -30,16 +30,14 @@ contract MyTestToken is ERC20 {
  
     address payable receiver;
     
-    constructor(string memory name, string memory symbol, uint8 decimals, address user1, address user2, address user3) ERC20(name, symbol) {
-        
+    constructor(string memory name, string memory symbol, uint8 decimals, address user1, address user2, address user3) updates ERC20(name, symbol) {
         _decimals = decimals;
-        circulation = 30*3;
+        circulation = SafeMath.mul(30, 3);
         balances[user1] = 30;
         balances[user2] = 30;
         balances[user3] = 30;
-        exchange_rate = circulation*(0.00005 ether);
+
         max = 5000;
-        remained = max - circulation;
         enroll(user1);
         enroll(user2);
         enroll(user3);
@@ -49,32 +47,35 @@ contract MyTestToken is ERC20 {
         // Note: a constructor is available only to a deploying account 
     }
     
-    function enroll (address _user) public {
-        require(max - circulation > 30);
-        balances[_user] = balances[_user] + 30;
-        circulation = circulation + 30;
-        remained = max - circulation;
-        exchange_rate = circulation*(0.00005 ether);
+    function enroll (address _user) public updates{
+        require(SafeMath.sub(max, circulation) > 30);
+        balances[_user] = SafeMath.add(balances[_user], 30);
+        circulation = SafeMath.add(circulation, 30);
     }
     
     function getTokenCirculation() public view returns (uint256){
         return circulation;
     }
     
-    function buyTokens(uint quantity) public payable{
-        uint256 value = quantity*exchange_rate;
+    modifier updates(){
+      // Updates the remained and the exhchange rate
+      _;
+        remained = SafeMath.sub(max, circulation);
+        exchange_rate = SafeMath.mul(circulation, (0.00005 ether));
+    }
+    function buyTokens(uint quantity) public payable updates{
+      // Genering a possible error statement
+        uint256 value = SafeMath.mul(quantity, exchange_rate);
         string memory s1 = "Should have provided this much ether: ";
         string memory s2 = uint2str(value);
         string memory error_statement = string(abi.encodePacked(s1, s2));
 
-        require(quantity + circulation <= max, 'Not enough money!');
-
+      // Requirements
+        require(SafeMath.add(quantity, circulation) <= max, 'Not enough money!');
         require(msg.value == value, error_statement);
         
-        balances[msg.sender] = balances[msg.sender] + quantity;
-        circulation = circulation + quantity;
-        remained = max - circulation;
-        exchange_rate = circulation*(0.00005 ether);
+        balances[msg.sender] = SafeMath.add(balances[msg.sender], quantity);
+        circulation = SafeMath.add(circulation, quantity);
     }
     
     function uint2str(uint _i) internal pure returns (string memory _uintAsString) {
@@ -99,23 +100,23 @@ contract MyTestToken is ERC20 {
         return string(bstr);
     }
     
-    function sellTokens(uint quantity) public{
-        uint256 value = quantity*exchange_rate;
+    function sellTokens(uint quantity) public updates{
+        uint256 value = SafeMath.mul(quantity, exchange_rate);
         
         require(address(this).balance >= value);
         //require(msg.value == );
-        balances[msg.sender] = balances[msg.sender] - quantity;
+        balances[msg.sender] = SafeMath.sub(balances[msg.sender], quantity);
         //address to_get = msg.sender;
-        
         
         
         payable(msg.sender).transfer(value);
         //to_get.transfer(quantity*exchange_rate);
+        circulation = SafeMath.sub(circulation, quantity);
     }
     
     function getCurrentExchangeRate() public view returns (uint256){
         // in Gweis:
-        return exchange_rate/1000000000;
+        return SafeMath.div(exchange_rate, 1000000000);
     }
     
     function contractBalance() public view returns (uint256){
@@ -181,10 +182,6 @@ contract MyTestToken is ERC20 {
     return true;
    }
 
-   function contractBalance() public returns (uint256){
-    
-   }
-
    function approve(address _spender, uint256 _value) public override returns (bool) {
      allowed[msg.sender][_spender] = _value;
      emit Approval(msg.sender, _spender, _value);
@@ -216,5 +213,4 @@ contract MyTestToken is ERC20 {
      emit Approval(msg.sender, _spender, allowed[msg.sender][_spender]);
      return true;
   }
-
 }

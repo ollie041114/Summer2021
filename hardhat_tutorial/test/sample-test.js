@@ -90,16 +90,17 @@ describe("Greeter", function() {
     
 
 
+
     //expect(await greeter.connect(B).sellTokens('5')).to.throw('Currently the balance isnt high enough');   
     expect(await greeter.connect(B).getCurrentExchangeRate()).to.equal(10750000);
     
-    await greeter.connect(B).buyTokens(2, {value: '21500000000000000'});
+    await greeter.connect(B).sellTokens(2);
     
-    expect(await provider.getBalance(greeter.address)).to.equal('31000000000000000');
-    expect(await greeter.connect(C).balanceOf('0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266')).to.equal(60);
-    expect(await greeter.connect(C).balanceOf('0x70997970C51812dc3A010C7d01b50e0d17dc79C8')).to.equal(58);
-    expect(await greeter.connect(C).balanceOf('0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC')).to.equal(65);
-    expect(await greeter.connect(C).balanceOf('0x90F79bf6EB2c4f870365E785982E1f101E93b906')).to.equal(30);
+    expect(await greeter.connect(B).contractBalance()).to.equal('31000000000000000');
+    expect(await greeter.connect(B).balanceOf('0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266')).to.equal(60);
+    expect(await greeter.connect(B).balanceOf('0x70997970C51812dc3A010C7d01b50e0d17dc79C8')).to.equal(58);
+    expect(await greeter.connect(B).balanceOf('0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC')).to.equal(65);
+    expect(await greeter.connect(B).balanceOf('0x90F79bf6EB2c4f870365E785982E1f101E93b906')).to.equal(30);
 
   });
 

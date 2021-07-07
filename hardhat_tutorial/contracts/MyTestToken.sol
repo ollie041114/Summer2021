@@ -145,8 +145,6 @@ contract MyTestToken is ERC20 {
         return _decimals;
     }
 
-
-
    function transfer(address _to, uint256 _value) public override returns (bool) {
      require(_to != address(0));
      

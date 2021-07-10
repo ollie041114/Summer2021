@@ -1,0 +1,14 @@
+import 'dart:math'; //used for the random number generator
+
+import 'package:web3dart/web3dart.dart';
+// You can create Credentials from private keys
+Credentials fromHex = EthPrivateKey.fromHex("7ae4495b934af72e8ce1d5792f98c119f1d831690ee27dcfeee4c077d7f4f7b3");
+
+// Or generate a new key randomly
+var rng = new Random.secure();
+Credentials random = EthPrivateKey.createRandom(random)(rng);
+
+// In either way, the library can derive the public key and the address
+// from a private key:
+var address = await fromHex.extractAddress();
+print(address.hex);

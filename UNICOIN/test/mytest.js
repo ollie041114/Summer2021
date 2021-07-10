@@ -1,8 +1,8 @@
 //const { default: Contract } = require("web3/eth/contract");
 
-var MyUser = artifacts.require("MyUser");
+var MyUser = artifacts.require("/.UNICOIN.sol");
 
-contract("MyUser", function(accounts){
+contract("UNICOIN", function(accounts){
 
     it("should call a function that depends on a linked library", async () => {
         const meta = await MyUser.deployed();

@@ -1,5 +1,5 @@
-var Everything = artifacts.require("/.Everything.sol");
-var UNICOIN = artifacts.require("/.UNICOIN.sol");
+var Everything = artifacts.require("./Everything.sol");
+var UNICOIN = artifacts.require("./UNICOIN.sol");
 
 module.exports = function(deployer, network, accounts) {
     // (string memory _name, string memory _surname, uint _id, address _eth_address)

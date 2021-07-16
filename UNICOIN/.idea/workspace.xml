@@ -23,8 +23,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30369d59-7a5f-4be0-91bf-3ff44993533f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/importing/importing" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ReduxSimpleStarter" beforeDir="false" afterPath="$PROJECT_DIR$/../ReduxSimpleStarter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/UNICOIN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UNICOIN.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/Context.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/Context.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/DateTime.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/DateTime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/ERC20.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/ERC20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/Everything.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/Everything.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/IERC20.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/IERC20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/IERC20Metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/IERC20Metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/Migrations.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/Migrations.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/SafeMath.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/SafeMath.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/UNICOIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/UNICOIN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/User.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/User.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/bicycle.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/bicycle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/Everything.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/Everything.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/UNICOIN.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/UNICOIN.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/UnicInterface.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/UnicInterface.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/User.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/User.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/bicycle.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/bicycle.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/importing/bin/importing.dart" beforeDir="false" afterPath="$PROJECT_DIR$/importing/bin/importing.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/importing/lib/Everything.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/importing/lib/Everything.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/importing/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/importing/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/importing/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/importing/pubspec.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../uirp" beforeDir="false" afterPath="$PROJECT_DIR$/../uirp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +66,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aibar" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -82,5 +103,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1198" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1625901046512" />
+    <state x="946" y="273" key="FileChooserDialogImpl" timestamp="1626067949758">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="946" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1626067949758" />
   </component>
 </project>

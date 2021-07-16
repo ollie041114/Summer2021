@@ -105,6 +105,7 @@ contract UNICOIN is ERC20 {
   }
   
   function enroll(address _owner, uint256 _amount) external {
+    
     //require(isMember(_owner)==false);
     balances[_owner] = _amount;//SafeMath.add(balances[_owner], _amount);
   }

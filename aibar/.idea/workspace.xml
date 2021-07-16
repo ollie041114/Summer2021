@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="587bf098-3e34-49d9-b896-19dc74b584ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/aibar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uirp/lib/Everything.abi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uirp/lib/Everything.g.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uirp/lib/importing.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReduxSimpleStarter" beforeDir="false" afterPath="$PROJECT_DIR$/../ReduxSimpleStarter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/.idea/UNICOIN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/.idea/UNICOIN.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/build/contracts/Context.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/build/contracts/Context.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/build/contracts/DateTime.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/build/contracts/DateTime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/build/contracts/ERC20.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/build/contracts/ERC20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/build/contracts/Everything.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/build/contracts/Everything.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/build/contracts/IERC20.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/build/contracts/IERC20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/build/contracts/IERC20Metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/build/contracts/IERC20Metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/build/contracts/Migrations.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/build/contracts/Migrations.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/build/contracts/SafeMath.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/build/contracts/SafeMath.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/build/contracts/UNICOIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/build/contracts/UNICOIN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/build/contracts/User.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/build/contracts/User.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/build/contracts/bicycle.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/build/contracts/bicycle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/contracts/Everything.sol" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/contracts/Everything.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/contracts/UNICOIN.sol" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/contracts/UNICOIN.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/contracts/UnicInterface.sol" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/contracts/UnicInterface.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/contracts/User.sol" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/contracts/User.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/contracts/bicycle.sol" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/contracts/bicycle.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/importing/bin/importing.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/importing/bin/importing.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/importing/lib/Everything.abi.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/importing/lib/Everything.g.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/importing/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/importing/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/importing/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/importing/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/chains/aleut.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/chains/baikal.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/chains/goerli.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/chains/goerli.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/chains/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/chains/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/chains/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/chains/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/chains/mainnet.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/chains/mainnet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/chains/rinkeby.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/chains/rinkeby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/chains/ropsten.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/chains/ropsten.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/chains/yolov3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/genesisStates/aleut.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/genesisStates/baikal.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/genesisStates/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/genesisStates/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/genesisStates/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/genesisStates/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/genesisStates/yolov3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist.browser/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/chains/aleut.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/chains/baikal.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/chains/goerli.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/chains/goerli.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/chains/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/chains/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/chains/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/chains/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/chains/mainnet.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/chains/mainnet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/chains/rinkeby.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/chains/rinkeby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/chains/ropsten.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/chains/ropsten.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/chains/yolov3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/genesisStates/aleut.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/genesisStates/baikal.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/genesisStates/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/genesisStates/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/genesisStates/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/genesisStates/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/genesisStates/yolov3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/dist/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/common/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/baseTransaction.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/baseTransaction.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/baseTransaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/baseTransaction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/baseTransaction.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/baseTransaction.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/eip1559Transaction.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/eip1559Transaction.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/eip1559Transaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/eip1559Transaction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/eip1559Transaction.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/eip1559Transaction.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/eip2930Transaction.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/eip2930Transaction.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/eip2930Transaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/eip2930Transaction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/eip2930Transaction.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/eip2930Transaction.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/legacyTransaction.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/legacyTransaction.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/legacyTransaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/legacyTransaction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/legacyTransaction.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/legacyTransaction.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/types.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist.browser/types.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/baseTransaction.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/baseTransaction.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/baseTransaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/baseTransaction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/baseTransaction.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/baseTransaction.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/eip1559Transaction.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/eip1559Transaction.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/eip1559Transaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/eip1559Transaction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/eip1559Transaction.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/eip1559Transaction.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/eip2930Transaction.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/eip2930Transaction.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/eip2930Transaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/eip2930Transaction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/eip2930Transaction.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/eip2930Transaction.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/legacyTransaction.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/legacyTransaction.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/legacyTransaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/legacyTransaction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/legacyTransaction.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/legacyTransaction.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/types.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/dist/types.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/@ethereumjs/tx/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/node_modules/web3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/node_modules/web3/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNICOIN/truffle-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/truffle-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uirp/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/uirp/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uirp/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uirp/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uirp/lib/pages/main_page/body.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uirp/lib/pages/main_page/body.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uirp/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uirp/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uirp/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/uirp/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uirp" beforeDir="false" afterPath="$PROJECT_DIR$/../uirp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/uirp" />
+  </component>
+  <component name="ProjectId" id="1vCZIhITkrhxlgH0ylKqcYorED5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/uirp/lib" />
+    <property name="settings.editor.selected.configurable" value="emulator" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Desktop\Olzhas\Summer2021\aibar\uirp\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Desktop\Olzhas\Summer2021\aibar\uirp\lib" />
+      <recent name="C:\Users\Dell\Desktop\Olzhas\Summer2021\aibar\uirp\lib\olzhas" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flutter.Unnamed">
+    <configuration name="main.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/uirp/lib/main.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/uirp" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/uirp/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/uirp/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Dart Command Line App.main.dart" />
+      <item itemvalue="Flutter.Unnamed" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="587bf098-3e34-49d9-b896-19dc74b584ee" name="Default Changelist" comment="" />
+      <created>1626067953071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626067953071</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="594" y="221" width="1092" height="814" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626068903716">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="594" y="221" width="1092" height="814" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626068903716" />
+    <state x="869" y="406" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1626068899437">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="869" y="406" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626068899437" />
+    <state x="2012" y="92" width="1096" height="496" key="AVDManager" timestamp="1626416387034">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="2012" y="92" width="1096" height="496" key="AVDManager/0.0.1920.1040/1920.0.1280.680@1920.0.1280.680" timestamp="1626416387034" />
+    <state x="827" y="270" key="EnvironmentVariablesDialog" timestamp="1626068171535">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="827" y="270" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626068171535" />
+    <state x="1233" y="389" key="FileChooserDialogImpl" timestamp="1626068360799">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1233" y="389" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1626068360799" />
+    <state width="1237" height="304" key="GridCell.Tab.0.bottom" timestamp="1626416519396">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.680@1920.0.1280.680" timestamp="1626416519396" />
+    <state width="803" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626069923636" />
+    <state width="1237" height="304" key="GridCell.Tab.0.center" timestamp="1626416519396">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="304" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.680@1920.0.1280.680" timestamp="1626416519396" />
+    <state width="803" height="255" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626069923636" />
+    <state width="1237" height="304" key="GridCell.Tab.0.left" timestamp="1626416519396">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="304" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.680@1920.0.1280.680" timestamp="1626416519396" />
+    <state width="803" height="255" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626069923636" />
+    <state width="1237" height="304" key="GridCell.Tab.0.right" timestamp="1626416519396">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="304" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.680@1920.0.1280.680" timestamp="1626416519396" />
+    <state width="803" height="255" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626069923636" />
+    <state x="2284" y="0" width="916" height="680" key="SettingsEditor" timestamp="1626416151177">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="2284" y="0" width="916" height="680" key="SettingsEditor/0.0.1920.1040/1920.0.1280.680@1920.0.1280.680" timestamp="1626416151177" />
+    <state x="906" y="185" width="998" height="724" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1626068373027" />
+    <state x="2528" y="150" width="672" height="444" key="search.everywhere.popup" timestamp="1626416261783">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="2528" y="150" width="672" height="444" key="search.everywhere.popup/0.0.1920.1040/1920.0.1280.680@1920.0.1280.680" timestamp="1626416261783" />
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1626069259587" />
+  </component>
+</project>

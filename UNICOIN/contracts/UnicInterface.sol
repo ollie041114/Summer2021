@@ -1,4 +1,4 @@
-interface UNICOIN{
+interface IUNICOIN{
    function transfer(address _from, address _to, uint256 _value) external returns (bool);
 
   function increaseBalanceOf(address _owner, uint256 _amount) external;  

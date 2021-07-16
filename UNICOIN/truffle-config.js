@@ -17,12 +17,16 @@
  * phrase from a file you've .gitignored so it doesn't accidentally become public.
  *
  */
-
-// const HDWalletProvider = require('@truffle/hdwallet-provider');
+ var Web3 = require('web3');
+ let web3 = new Web3(Web3.givenProvider || function(){
+  // 0: indicates that we should use the first account
+  return new HDWalletProvider(mnemonic, "https://ropsten.infura.io/v3/f0bfb8e77bc548f5b2b5ca71b4f86953", 0)
+});
+const HDWalletProvider = require('@truffle/hdwallet-provider');
 // const infuraKey = "fj4jll3k.....";
 //
 // const fs = require('fs');
-// const mnemonic = fs.readFileSync(".secret").toString().trim();
+const mnemonic = "miracle only receive service quick forget strike taste tuition ship future nothing";
 
 module.exports = {
   /**
@@ -46,6 +50,15 @@ module.exports = {
       host: "127.0.0.1",     // Localhost (default: none)
       port: 7545,            // Standard Ethereum port (default: none)
       network_id: "*",       // Any network (default: none)
+    },
+
+    ropsten: {
+      provider: function(){
+        // 0: indicates that we should use the first account
+        return new HDWalletProvider(mnemonic, "https://ropsten.infura.io/v3/f0bfb8e77bc548f5b2b5ca71b4f86953", 0)
+      },
+      gasPrice: web3.utils.toWei("100", "gwei"),
+      network_id: 3
     }
       // },
     // Another network with more advanced options...

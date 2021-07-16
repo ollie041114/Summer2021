@@ -2,8 +2,7 @@ pragma solidity ^0.8.0;
 
 
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
-import "./UnicInterface.sol";
-
+import "./Bicycle.sol";
 
 contract User {
     // is defines a kind of inheritance 

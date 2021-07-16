@@ -2,7 +2,12 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/importing/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/importing/aibar/uirp/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/importing/aibar/uirp/build" />
+      <excludeFolder url="file://$MODULE_DIR$/importing/build" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

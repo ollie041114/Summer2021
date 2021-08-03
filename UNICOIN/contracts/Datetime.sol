@@ -61,7 +61,7 @@ contract DateTime {
             return Mydatetime;
         }
         
-        function getMytimestamp() public returns (uint){
+        function getMytimestamp() public returns (uint256){
             return Mytimestamp;
         }
         

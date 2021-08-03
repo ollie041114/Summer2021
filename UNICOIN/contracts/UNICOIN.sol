@@ -27,7 +27,7 @@ contract UNICOIN is ERC20 {
     // a given account together with the withdrawal sum allowed for each
 
     constructor(string memory name, string memory symbol, uint256 totalSupply) ERC20(name, symbol) {
-        balances[msg.sender] = 251;
+        balances[msg.sender] = 10;
         _name = name;
         _symbol = symbol;
     }
@@ -105,7 +105,6 @@ contract UNICOIN is ERC20 {
   }
   
   function enroll(address _owner, uint256 _amount) external {
-    
     //require(isMember(_owner)==false);
     balances[_owner] = _amount;//SafeMath.add(balances[_owner], _amount);
   }

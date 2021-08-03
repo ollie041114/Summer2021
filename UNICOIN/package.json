@@ -1,7 +1,6 @@
 {
   "name": "unicoin",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,11 +8,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "truffle": "^5.3.14"
+    "truffle": "^5.4.2"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.2.0",
     "@truffle/hdwallet-provider": "^1.4.1",
     "web3": "^1.4.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "description": ""
 }

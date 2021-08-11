@@ -11,7 +11,7 @@ function ExchangeRates() {
         // Iterate through a list of drums, return a list item for each of them 
         return data.drums.map(drum => {
             return(
-                <li key ={drum.id}> {drum.classification}</li>
+                <li key = {drum.id}> {drum.id}, {drum.classification}, {drum.place_of_occurence}</li>
             )
         });
       }

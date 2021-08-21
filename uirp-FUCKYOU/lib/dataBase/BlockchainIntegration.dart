@@ -83,16 +83,12 @@ class BlockchainIntegration with ChangeNotifier{
 
       Wallet wallet = await Wallet.createNew(credentials, password, rng);
       // print(wallet.toJson());
-      String pathway = "/data/user/0/com.example.uirp/app_flutter/dir";
 
       Directory appDocDirectory = await getApplicationDocumentsDirectory();
-      new Directory(appDocDirectory.path + '/' + 'dir')
-          .create(recursive: true)
-          .then((Directory directory) {
-        print('Path of New Dir: ' + directory.path);
-        pathway = directory.path;
-        globalPathway = pathway;
-      });
+      Directory directory = await Directory(appDocDirectory.path + '/' + 'dir').create(recursive: true);
+      print('Path of New Dir: ' + directory.path);
+      String pathway = directory.path;
+      globalPathway = pathway;
       var file = new File(pathway + '/file.txt');
       var sink = file.openWrite();
       sink.write(wallet.toJson());
@@ -163,12 +159,15 @@ class BlockchainIntegration with ChangeNotifier{
     try {
       String password = _username + _password;
       Directory appDocDirectory = await getApplicationDocumentsDirectory();
-      String pathway = "/data/user/0/com.example.uirp/app_flutter/dir";
+      Directory directory = await Directory(appDocDirectory.path + '/' + 'dir').create(recursive: true);
+
+      String pathway = directory.path;
       String content = "2";
 
       Credentials unlocked = await createCredentials(pathway, password);
       print(unlocked);
       notifyListeners();
+      print("Yes!");
       return "Yes";
     } catch (e) {
       print(e);

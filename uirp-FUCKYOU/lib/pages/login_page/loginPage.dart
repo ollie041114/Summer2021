@@ -5,6 +5,7 @@ import 'package:uirp/components/roundedButton.dart';
 import 'package:uirp/components/roundedField.dart';
 import 'package:uirp/components/roundedPasswordField.dart';
 import 'package:uirp/constants.dart';
+import 'package:uirp/dataBase/leUser.dart';
 import 'package:uirp/pages/login_page/background.dart';
 import 'package:uirp/pages/login_page/loginPage.dart';
 import 'package:uirp/pages/signup_page/signupPage.dart';
@@ -24,21 +25,34 @@ class LoginPage extends StatefulWidget {
 }
 
 class _Body extends State<LoginPage> {
+  var GlobalStatus;
+  var texty = "";
   final _validate = true;
   final TextEditingController _email_controller = TextEditingController();
   final TextEditingController _ID_controller = TextEditingController();
   final TextEditingController _name_controller = TextEditingController();
   final TextEditingController _surname_controller = TextEditingController();
   final TextEditingController _password_controller = TextEditingController();
-  void _onPressed(){
-    var reply = Provider.of<BlockchainIntegration>(context, listen: false).LogIn(_email_controller.text, _password_controller.text);
 
-    Navigator.push(context, MaterialPageRoute(builder: (context) {
-      return LoadingPage(
-          goToPage: BikeManagerPage(),
-          backPage: LoginPage(text: "Incorrect username or password"),
-          callback: Provider.of<BlockchainIntegration>(context, listen: false).LogIn(_email_controller.text, _password_controller.text));
-    }));
+  void _onPressed() async{
+    var reply = await Provider.of<BlockchainIntegration>(context, listen: false).LogIn(_email_controller.text, _password_controller.text);
+
+    if (reply == "Yes") {
+
+
+      Navigator.push(context, MaterialPageRoute(builder: (context) {
+
+        Size size = MediaQuery.of(context).size;
+        return LoadingPage(
+            goToPage: BikeManagerPage(),
+            backPage: LoginPage(text: "Incorrect username or password"),
+            callback: Provider.of<BlockchainIntegration>(context, listen: false)
+                .LogIn(_email_controller.text, _password_controller.text));
+      }));}
+        if (reply == "No"){
+          setState(() {
+            texty = "Passwords don't match!";});
+        }
 
     print(Text(_email_controller.text));
     print(Text(_ID_controller.text));
@@ -86,7 +100,7 @@ class _Body extends State<LoginPage> {
               ),
 
               Text(
-                widget.text,
+                texty,
                 style: TextStyle(color: Colors.red, fontWeight: FontWeight.bold, fontSize: 20),
               ),
               RoundedField(

@@ -23,26 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="587bf098-3e34-49d9-b896-19dc74b584ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ReduxSimpleStarter" beforeDir="false" afterPath="$PROJECT_DIR$/../ReduxSimpleStarter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UNICOIN/importing/bin/importing.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/importing/bin/importing.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UNICOIN/importing/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UNICOIN/importing/file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uirp" beforeDir="false" afterPath="$PROJECT_DIR$/uirp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uirp/lib/dataBase/BlockchainIntegration.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uirp/lib/dataBase/BlockchainIntegration.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uirp/lib/dataBase/Everything.abi.json" beforeDir="false" afterPath="$PROJECT_DIR$/uirp/lib/dataBase/Everything.abi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uirp/lib/dataBase/Everything.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uirp/lib/dataBase/Everything.g.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uirp/lib/pages/bike_manager/bodyBikeManager.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uirp/lib/pages/bike_manager/bodyBikeManager.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uirp/lib/pages/loading/loading.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uirp/lib/pages/loading/loading.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uirp/lib/pages/login_page/body.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uirp/lib/pages/login_page/body.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uirp/lib/pages/signup_page/body.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uirp/lib/pages/signup_page/body.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hardhat_tutorial/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hardhat_tutorial/contracts/MyTestToken.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hardhat_tutorial/hardhat.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hardhat_tutorial/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hardhat_tutorial/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hardhat_tutorial/scripts/sample-script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hardhat_tutorial/test/sample-test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../uirp" beforeDir="false" afterPath="$PROJECT_DIR$/../uirp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +32,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/uirp" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1vCZIhITkrhxlgH0ylKqcYorED5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -64,8 +45,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/uirp/lib" />
-    <property name="settings.editor.selected.configurable" value="emulator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../uirp" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -119,6 +100,12 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myShow1" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="594" y="221" width="1092" height="814" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626068903716">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -136,9 +123,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="827" y="270" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626068171535" />
-    <state x="1233" y="389" key="FileChooserDialogImpl" timestamp="1626068360799">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="700" y="179" key="FileChooserDialogImpl" timestamp="1629393291921">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
+    <state x="700" y="179" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1629393291921" />
     <state x="1233" y="389" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1626068360799" />
     <state width="1877" height="428" key="GridCell.Tab.0.bottom" timestamp="1627195805144">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -164,9 +152,10 @@
     <state width="914" height="428" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1626959614756" />
     <state width="1237" height="254" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.680@1920.0.1280.680" timestamp="1626431729954" />
     <state width="1877" height="428" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627195805144" />
-    <state x="2284" y="0" width="916" height="680" key="SettingsEditor" timestamp="1626416151177">
-      <screen x="1920" y="0" width="1280" height="680" />
+    <state x="284" y="0" width="916" height="680" key="SettingsEditor" timestamp="1629393064921">
+      <screen x="0" y="0" width="1280" height="672" />
     </state>
+    <state x="284" y="0" key="SettingsEditor/0.0.1280.672@0.0.1280.672" timestamp="1629393064921" />
     <state x="2284" y="0" width="916" height="680" key="SettingsEditor/0.0.1920.1040/1920.0.1280.680@1920.0.1280.680" timestamp="1626416151177" />
     <state x="906" y="185" width="998" height="724" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1626068373027" />
     <state x="912" y="229" width="1008" height="680" key="search.everywhere.popup" timestamp="1626745430166">

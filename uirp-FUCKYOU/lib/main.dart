@@ -57,25 +57,23 @@ void main() {
 }
 
 
-
-
 /*
 Example of what an user should look like:
  */
 
 
-LeUser demoUser = LeUser("bog@gmail.com");
-
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    var email = BlockchainIntegration.getEmail();
+
     return
       MultiProvider(
           providers: [
-            ChangeNotifierProvider(create: (context) => Balance()),
-            ChangeNotifierProvider(create: (context) => LeUser("bog@gmail.com")),
-            ChangeNotifierProvider(create: (context) => BlockchainIntegration()),
+            ChangeNotifierProvider<Balance>(create: (context) => Balance()),
+            ChangeNotifierProvider<LeUser>(create: (context) => LeUser("bog@gmail.com")),
+            ChangeNotifierProvider<BlockchainIntegration>(create: (context) => BlockchainIntegration()),
           ],
           child: MaterialApp(
             title: 'Flutter Demo',

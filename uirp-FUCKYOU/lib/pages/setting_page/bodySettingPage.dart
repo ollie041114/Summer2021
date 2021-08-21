@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:uirp/dataBase/BlockchainIntegration.dart';
 import 'package:uirp/dataBase/leUser.dart';
 import 'package:uirp/pages/setting_page/infoButton.dart';
 import 'package:uirp/pages/setting_page/popUpField.dart';
-
+import 'package:intl/intl.dart';
 
 import 'backgroundSettingPage.dart';
 import 'dialogRoute.dart';
@@ -62,6 +63,7 @@ class _BodySettingPage extends State<BodySettingPage> {
             builder: (BuildContext context, BoxConstraints constraints){
               //print("${sizeParent.height} compare to ${constraints.maxHeight}");
               return  Consumer<LeUser>(
+
                   builder: (context, leUser, child) {
                     print("Inside bodySettingPage, builder(): ${leUser.name}");
                     return SingleChildScrollView(
@@ -87,6 +89,34 @@ class _BodySettingPage extends State<BodySettingPage> {
                             callback: () async {
                               await Navigator.of(context).push(MyDialogRoute(builder: (context) {
                                 _name_controller.text = leUser.email;
+                                return PopUpField(
+                                  text_controller: _email_controller,
+                                  hint: leUser.email + " (edit me)",
+                                );
+                              }));
+                              leUser.email = _email_controller.text;
+                            },
+                          ),
+                          InfoButton(
+                            constraints: unchangedConstraint,
+                            str1: "A user since", str2: new DateFormat('yyyy-MM-dd').format(leUser.timeRegistration),
+                            callback: () async {
+                              await Navigator.of(context).push(MyDialogRoute(builder: (context) {
+                                _name_controller.text = new DateFormat('yyyy-MM-dd').format(leUser.timeRegistration);
+                                return PopUpField(
+                                  text_controller: _email_controller,
+                                  hint: leUser.email + " (edit me)",
+                                );
+                              }));
+                              leUser.email = _email_controller.text;
+                            },
+                          ),
+                          InfoButton(
+                            constraints: unchangedConstraint,
+                            str1: "Surname: ", str2: leUser.surname,
+                            callback: () async {
+                              await Navigator.of(context).push(MyDialogRoute(builder: (context) {
+                                _name_controller.text = leUser.surname;
                                 return PopUpField(
                                   text_controller: _email_controller,
                                   hint: leUser.email + " (edit me)",

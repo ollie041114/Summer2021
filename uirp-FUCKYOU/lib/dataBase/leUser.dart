@@ -20,6 +20,7 @@ class LeUser with ChangeNotifier{
         users(where:{email: "$email"}) {
           id
           __typename
+          surname
           name
           email 
           timeRegistration
@@ -40,7 +41,7 @@ class LeUser with ChangeNotifier{
 
     var numOfBicycles = myList["users"][0]["bicycles"].length;
     for (var i =0; i > numOfBicycles; i--) {
-      var bikeId = myList["users"][0]["bicycles"][i]["id"];
+      var bikeId = myList["users"][0]["bicycles"][i]["id"].toString();
       bicycles.add(new LeBicycle(bikeId));
     }
     print("Name is"+this.name);
@@ -49,5 +50,10 @@ class LeUser with ChangeNotifier{
 
   LeUser(String email) {
     populateLeUserWithData(email);
+  }
+
+  resetLeUser(String email){
+    populateLeUserWithData(email);
+    notifyListeners();
   }
 }

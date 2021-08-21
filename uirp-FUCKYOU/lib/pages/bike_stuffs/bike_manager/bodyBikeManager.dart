@@ -3,8 +3,10 @@ import 'dart:math';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:provider/provider.dart';
 import 'package:uirp/dataBase/AllBicycleInfo.dart';
 import 'package:uirp/dataBase/leBicycle.dart';
+import 'package:uirp/dataBase/leUser.dart';
 import './bicycleCardButton.dart';
 import 'package:uirp/pages/bike_stuffs/bike_lending_history/bikeLendingHistoryPage.dart';
 import 'package:uirp/pages/bike_stuffs/bike_manager/backgroundBikeManager.dart';
@@ -156,6 +158,7 @@ class _BodyBikeManagerState extends State<BodyBikeManager> {
 
   @override
   Widget build(BuildContext context) {
+
     Size size = MediaQuery.of(context).size;
     return BackGroundBikeManager(
       child: ListView(

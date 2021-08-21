@@ -42,13 +42,6 @@ class SideProfileRemake extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
     Consumer<LeUser>(
         builder: (context, leUser, child) {
-          if(checkIfLogin() == true)
-          {
-            var email = Provider.of<BlockchainIntegration>(context, listen: false).getEmail();
-            LeUser x = new LeUser(email);
-            leUser.name = x.name;
-            leUser.email = x.email;
-          }
           return Container();
         }
     );

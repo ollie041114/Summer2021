@@ -25,7 +25,6 @@ class SignUpPage extends StatefulWidget {
 class _SignUpPage extends State<SignUpPage> {
   String text2 = "";
 
-  final BlockchainIntegration solidity = BlockchainIntegration();
   final TextEditingController _email_controller = TextEditingController();
   final TextEditingController _ID_controller = TextEditingController();
   final TextEditingController _name_controller = TextEditingController();

@@ -1,0 +1,296 @@
+[
+{
+    "inputs": [
+        {
+            "internalType": "address",
+            "name": "_UNICOINaddress",
+            "type": "address"
+        }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+},{
+    "anonymous": false,
+    "inputs": [
+        {
+            "indexed": false,
+            "internalType": "address",
+            "name": "_owner",
+            "type": "address"
+        },
+        {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "time_Registr",
+            "type": "uint256"
+        },
+        {
+            "indexed": false,
+            "internalType": "bytes32",
+            "name": "BicycleId",
+            "type": "bytes32"
+        }
+    ],
+    "name": "NewBicycle",
+    "type": "event"
+},{
+    "anonymous": false,
+    "inputs": [
+        {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "transactionID",
+            "type": "uint256"
+        },
+        {
+            "indexed": false,
+            "internalType": "bytes32",
+            "name": "BicycleId",
+            "type": "bytes32"
+        },
+        {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "Openlatitude",
+            "type": "uint256"
+        },
+        {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "Openlongitude",
+            "type": "uint256"
+        },
+        {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "Closelatitude",
+            "type": "uint256"
+        },
+        {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "Closelongitude",
+            "type": "uint256"
+        },
+        {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "openTimestamp",
+            "type": "uint256"
+        },
+        {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "closeTimestamp",
+            "type": "uint256"
+        },
+        {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "fee_rate",
+            "type": "uint256"
+        },
+        {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "totalFee",
+            "type": "uint256"
+        },
+        {
+            "indexed": false,
+            "internalType": "address",
+            "name": "borrower",
+            "type": "address"
+        },
+        {
+            "indexed": false,
+            "internalType": "address",
+            "name": "lender",
+            "type": "address"
+        }
+    ],
+    "name": "NewTransaction",
+    "type": "event"
+},{
+    "anonymous": false,
+    "inputs": [
+        {
+            "indexed": false,
+            "internalType": "string",
+            "name": "_name",
+            "type": "string"
+        },
+        {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "time_Registr",
+            "type": "uint256"
+        },
+        {
+            "indexed": false,
+            "internalType": "string",
+            "name": "_surname",
+            "type": "string"
+        },
+        {
+            "indexed": false,
+            "internalType": "string",
+            "name": "_email",
+            "type": "string"
+        },
+        {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "_id",
+            "type": "uint256"
+        },
+        {
+            "indexed": false,
+            "internalType": "address",
+            "name": "_eth_address",
+            "type": "address"
+        },
+        {
+            "indexed": false,
+            "internalType": "bool",
+            "name": "_isCurator",
+            "type": "bool"
+        }
+    ],
+    "name": "NewUser",
+    "type": "event"
+},{
+    "inputs": [
+        {
+            "internalType": "string",
+            "name": "_name",
+            "type": "string"
+        },
+        {
+            "internalType": "uint256",
+            "name": "time_Registr",
+            "type": "uint256"
+        },
+        {
+            "internalType": "string",
+            "name": "_surname",
+            "type": "string"
+        },
+        {
+            "internalType": "string",
+            "name": "_email",
+            "type": "string"
+        },
+        {
+            "internalType": "uint256",
+            "name": "_id",
+            "type": "uint256"
+        },
+        {
+            "internalType": "address",
+            "name": "_eth_address",
+            "type": "address"
+        },
+        {
+            "internalType": "bool",
+            "name": "_isCurator",
+            "type": "bool"
+        }
+    ],
+    "name": "enrollUser",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+},{
+    "inputs": [
+        {
+            "internalType": "address",
+            "name": "_owner",
+            "type": "address"
+        },
+        {
+            "internalType": "uint256",
+            "name": "time_Registr",
+            "type": "uint256"
+        }
+    ],
+    "name": "enrollBicycle",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+},{
+    "inputs": [
+        {
+            "internalType": "uint256",
+            "name": "_latitude",
+            "type": "uint256"
+        },
+        {
+            "internalType": "uint256",
+            "name": "_longitude",
+            "type": "uint256"
+        },
+        {
+            "internalType": "uint256",
+            "name": "_timeStamp",
+            "type": "uint256"
+        },
+        {
+            "internalType": "string",
+            "name": "_location",
+            "type": "string"
+        },
+        {
+            "internalType": "address",
+            "name": "_borrower",
+            "type": "address"
+        },
+        {
+            "internalType": "address",
+            "name": "_owner",
+            "type": "address"
+        },
+        {
+            "internalType": "bytes32",
+            "name": "_bicycle_number",
+            "type": "bytes32"
+        }
+    ],
+    "name": "openBicycleTransaction",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+},{
+    "inputs": [
+        {
+            "internalType": "uint256",
+            "name": "_latitude",
+            "type": "uint256"
+        },
+        {
+            "internalType": "uint256",
+            "name": "_longitude",
+            "type": "uint256"
+        },
+        {
+            "internalType": "uint256",
+            "name": "_timeStamp",
+            "type": "uint256"
+        },
+        {
+            "internalType": "address",
+            "name": "_owner",
+            "type": "address"
+        },
+        {
+            "internalType": "bytes32",
+            "name": "_bicycle_number",
+            "type": "bytes32"
+        }
+    ],
+    "name": "closeBicycleTransaction",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+}
+]

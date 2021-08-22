@@ -8,18 +8,17 @@ import'dart:math';//Random
 import'dart:typed_data';//Uint8List
 import'package:web3dart/crypto.dart';
 import 'dart:convert';
-
+import 'package:uirp/dataBase/leBicycle.dart';
 import 'package:web3dart/web3dart.dart' as _i1;
 import '../Everything.g.dart';
 import 'package:flutter/services.dart' show rootBundle;
+
 
 class BlockchainIntegration with ChangeNotifier{
   Future<String> getContractAddress() async{
     var info = json.decode(await rootBundle.loadString('./assets/Everything.json'));
     return info['networks']['3']['address'].toString();
   }
-
-
 
   // Making it a singleton
   static final BlockchainIntegration _singleton = BlockchainIntegration
@@ -176,18 +175,17 @@ class BlockchainIntegration with ChangeNotifier{
     }
   }
 
-  void NewBicycle() async {
+   Future<String> NewBicycle() async {
     print("Starting the goddamn promise");
     final EthereumAddress contractAddr = await EthereumAddress.fromHex(await getContractAddress());
 
     print("Contract address is "+contractAddr.toString());
 
-
-
     final genesis_credentials = await client.credentialsFromPrivateKey(privateKey);
     final everything = await Everything(address: contractAddr, client: client);
-    await everything.enrollBicycle(GlobalAddress, BigInt.from(DateTime.now().microsecondsSinceEpoch),
+    String bicycleId = await everything.enrollBicycle(GlobalAddress, BigInt.from(DateTime.now().microsecondsSinceEpoch),
         credentials: genesis_credentials);
     notifyListeners();
+    return bicycleId;
   }
 }

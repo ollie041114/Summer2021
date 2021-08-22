@@ -13,6 +13,7 @@
 
 import 'package:provider/provider.dart';
 import 'package:uirp/dataBase/BlockchainIntegration.dart';
+import 'package:uirp/pages/google_maps/googleMaps.dart';
 import 'package:uirp/slideProfile/leProfile.dart';
 import 'package:uirp/pages/balance/myBalance.dart';
 import 'package:uirp/pages/bike_stuffs/bike_manager/bikeManagerPage.dart';
@@ -234,9 +235,44 @@ class SideProfileRemake extends StatelessWidget {
                     // Update the state of the app
                     // ...
                     // Then close the drawer
-                    Navigator.pop(context);
+                    // Navigator.pop(context);
                     Navigator.push(context, MaterialPageRoute(builder: (context) {
                       return MainPage();
+                    }));
+                  },
+                ),  ListTile(
+                  title: Row(
+                    children: [
+                      Center(
+                        child: Container(
+                            width: 35,
+                            height: 35,
+                            decoration: BoxDecoration(
+                              color: Colors.black,
+                              shape: BoxShape.circle,
+                            ),
+                            child: Icon(
+                              Icons.map,
+                              size: 27,
+                              color: Colors.white,
+                            )),
+                      ),
+                      SizedBox(
+                        width: size.width * 0.05,
+                      ),
+                      Text(
+                        "Maps",
+                        style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                      ),
+                    ],
+                  ),
+                  onTap: () {
+                    // Update the state of the app
+                    // ...
+                    // Then close the drawer
+                    Navigator.pop(context);
+                    Navigator.push(context, MaterialPageRoute(builder: (context) {
+                      return GoogleMaps();
                     }));
                   },
                 ),

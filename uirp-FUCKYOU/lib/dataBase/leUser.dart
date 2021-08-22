@@ -12,7 +12,7 @@ class LeUser with ChangeNotifier{
   List<LeBicycle> bicycles = [];
   // BorrowerTransactions transactions = [];
 
-  void populateLeUserWithData(String email) async{
+  void populateLeUserWithData(String email, BuildContext context) async{
     InfoGetter2 info = new InfoGetter2();
     print("Email is" + email);
     String query = '''
@@ -42,18 +42,20 @@ class LeUser with ChangeNotifier{
     var numOfBicycles = myList["users"][0]["bicycles"].length;
     for (var i =0; i > numOfBicycles; i--) {
       var bikeId = myList["users"][0]["bicycles"][i]["id"].toString();
-      bicycles.add(new LeBicycle(bikeId));
+      var bike = new LeBicycle();
+      bike.RegisterNewLeBicycleWithData(context);
+      bicycles.add(bike);
     }
     print("Name is"+this.name);
     notifyListeners();
   }
 
-  LeUser(String email) {
-    populateLeUserWithData(email);
+  LeUser(String email, BuildContext context) {
+    populateLeUserWithData(email, context);
   }
 
-  resetLeUser(String email){
-    populateLeUserWithData(email);
+  resetLeUser(String email, BuildContext context){
+    populateLeUserWithData(email, context);
     notifyListeners();
   }
 }

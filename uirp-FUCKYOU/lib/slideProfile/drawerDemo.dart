@@ -12,7 +12,7 @@ class drawerPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var email = Provider.of<BlockchainIntegration>(context, listen: false).getEmail();
-    var user = LeUser(email);
+    var user = LeUser(email, context);
     return Scaffold(
       body: Stack (
         children: [

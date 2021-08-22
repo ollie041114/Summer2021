@@ -15,6 +15,7 @@ import 'package:uirp/dataBase/BlockchainIntegration.dart';
 import 'QrPopUpCard.dart';
 import 'dialogRoute.dart';
 
+
 class BodyBikeManager extends StatefulWidget {
   BodyBikeManager({
     Key? key,
@@ -28,10 +29,20 @@ class BodyBikeManager extends StatefulWidget {
 
 const DungnTextStyle = TextStyle(fontSize: 20, color: Colors.white);
 // should have a function that read all the available bicycles here.
-//var bicycleList = <LeBicycle>[];
 
 class _BodyBikeManagerState extends State<BodyBikeManager> {
-  final BlockchainIntegration solidity = BlockchainIntegration();
+  var visibility;
+  var bicycleList;
+
+  Future updateEverything() async{
+    var bike = new LeBicycle();
+    await bike.RegisterNewLeBicycleWithData(context);
+    setState(() {
+      bicycleList = Provider.of<LeUser>(context, listen: false).bicycles;
+      bicycleList.add(bike);
+    });
+  }
+
   List<Widget> displayBicycleList() {
     Size size = MediaQuery.of(context).size;
     var res = <Widget>[];
@@ -160,67 +171,57 @@ class _BodyBikeManagerState extends State<BodyBikeManager> {
   Widget build(BuildContext context) {
 
     Size size = MediaQuery.of(context).size;
-    return BackGroundBikeManager(
-      child: ListView(
-        shrinkWrap: true,
-        children: <Widget>[
-          // Title
-          SizedBox(
-            height: size.height * 0.01,
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              Text(
-                "List of bicycles",
-                style: TextStyle(
-                    fontSize: 40,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.white),
-              ),
-            ],
-          ),
-          Column(
-            children: [
-              Column(
-                children: displayBicycleList(),
-              ),
+    return FutureBuilder(
+      future: updateEverything(),
+      builder: (BuildContext context, AsyncSnapshot snapshot) {
+        return BackGroundBikeManager(
+          child: ListView(
+            shrinkWrap: true,
+            children: <Widget>[
+              // Title
               SizedBox(
-                height: 10,
+                height: size.height * 0.01,
               ),
-              TextButton(
-                style: TextButton.styleFrom(
-                  padding: const EdgeInsets.all(30.0),
-                  primary: Colors.white,
-                  textStyle: const TextStyle(fontSize: 20),
-                  backgroundColor: Colors.lightGreen,
-                ),
-                child: const Text('Add 1 more bike', style: DungnTextStyle),
-                onPressed: () {
-                  setState(() {
-                    Random rnd = new Random();
-                    int id = (bicycleList.length) + 1;
-                    var duration = {
-                      "days": 0,
-                      "hours": 0,
-                      "minutes": 0,
-                      "seconds": 0,
-                    };
-                    Map<String, dynamic> jsonNew = {
-                      "id": id,
-                      "name": "bicycle#" + (bicycleList.length + 1).toString(),
-                      "amountEarned": 0.0,
-                      "timeTraveled": duration,
-                    };
-                    bicycleList.add(new LeBicycle(""));
-                    solidity.NewBicycle();
-                  });
-                },
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Text(
+                    "List of bicycles",
+                    style: TextStyle(
+                        fontSize: 40,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white),
+                  ),
+                ],
+              ),
+              Column(
+                children: [
+                  Column(
+                    children: displayBicycleList(),
+                  ),
+                  SizedBox(
+                    height: 10,
+                  ),
+
+                  TextButton(
+                    style: TextButton.styleFrom(
+                      padding: const EdgeInsets.all(30.0),
+                      primary: Colors.white,
+                      textStyle: const TextStyle(fontSize: 20),
+                      backgroundColor: Colors.lightGreen,
+                    ),
+                    child: const Text('Add 1 more bike', style: DungnTextStyle),
+                    onPressed: () {
+                      updateEverything();
+                    },
+                  ),
+                ],
               ),
             ],
           ),
-        ],
-      ),
+        );
+      }
     );
+
   }
 }

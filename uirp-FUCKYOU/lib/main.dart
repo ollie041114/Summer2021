@@ -66,13 +66,11 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    var email = BlockchainIntegration.getEmail();
 
     return
       MultiProvider(
           providers: [
             ChangeNotifierProvider<Balance>(create: (context) => Balance()),
-            ChangeNotifierProvider<LeUser>(create: (context) => LeUser("bog@gmail.com")),
             ChangeNotifierProvider<BlockchainIntegration>(create: (context) => BlockchainIntegration()),
           ],
           child: MaterialApp(

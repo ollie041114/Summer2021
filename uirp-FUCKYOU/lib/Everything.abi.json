@@ -1,15 +1,15 @@
 [
-{
-    "inputs": [
-        {
-            "internalType": "address",
-            "name": "_UNICOINaddress",
-            "type": "address"
-        }
-    ],
-    "stateMutability": "nonpayable",
-    "type": "constructor"
-},{
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "_UNICOINaddress",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+    },{
     "anonymous": false,
     "inputs": [
         {
@@ -215,7 +215,13 @@
         }
     ],
     "name": "enrollBicycle",
-    "outputs": [],
+    "outputs": [
+        {
+            "internalType": "string",
+            "name": "",
+            "type": "string"
+        }
+    ],
     "stateMutability": "nonpayable",
     "type": "function"
 },{
@@ -291,6 +297,25 @@
     "name": "closeBicycleTransaction",
     "outputs": [],
     "stateMutability": "nonpayable",
+    "type": "function"
+},{
+    "constant": true,
+    "inputs": [
+        {
+            "internalType": "bytes32",
+            "name": "_bytes32",
+            "type": "bytes32"
+        }
+    ],
+    "name": "bytes32ToString",
+    "outputs": [
+        {
+            "internalType": "string",
+            "name": "",
+            "type": "string"
+        }
+    ],
+    "stateMutability": "pure",
     "type": "function"
 }
 ]
